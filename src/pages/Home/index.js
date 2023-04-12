@@ -1,20 +1,21 @@
 import { useContext } from 'react';
+import CssIcon from '../../assets/css.png';
+import GitIcon from '../../assets/git.png';
 import GithubIcon from '../../assets/github.png';
+import HtmlIcon from '../../assets/html.png';
+import JavascriptIcon from '../../assets/javascript.png';
 import LinkedinIcon from '../../assets/linkedin.png';
+import NodeIcon from '../../assets/node.png';
+import ReactIcon from '../../assets/react.png';
 import MyImage from '../../assets/rodrigo-image.jpeg';
+import TypescriptIcon from '../../assets/typescript.png';
 import WhatsappIcon from '../../assets/whatsapp.png';
+import ArrowUpIcon from '../../assets/arrow-up.png';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import ModalMenuMobile from '../../components/ModalMenuMobile';
 import { GlobalContext } from '../../contexts/GlobalContext';
 import './styles.css';
-import JavascriptIcon from '../../assets/javascript.png';
-import TypescriptIcon from '../../assets/typescript.png';
-import NodeIcon from '../../assets/node.png';
-import ReactIcon from '../../assets/react.png';
-import HtmlIcon from '../../assets/html.png';
-import CssIcon from '../../assets/css.png';
-import GitIcon from '../../assets/git.png';
 
 function Home() {
   const { openMenu } = useContext(GlobalContext);
@@ -84,6 +85,9 @@ function Home() {
         </section>
       </main>
       <Footer />
+      <div className='arrow-up'>
+        <img src={ArrowUpIcon} alt='Seta para cima' />
+      </div>
       {
         openMenu &&
         <ModalMenuMobile />
