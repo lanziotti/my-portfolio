@@ -6,6 +6,11 @@
     background-color: #323b5a;
     box-shadow: 0 1px 10px #00acef;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
     padding: 1rem 1rem 1rem 2rem;
 }
 

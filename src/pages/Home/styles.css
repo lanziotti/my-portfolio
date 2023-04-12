@@ -15,6 +15,8 @@
     flex-direction: column;
     align-items: center;
 
+    margin-top: 6.8rem;
+
     background: linear-gradient(45deg, #00f58d, #00acef, #1d2b5e, #1f2a4a);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;
@@ -123,9 +125,10 @@
     border-radius: 1rem;
 }
 
-.about-me {
+.about-me,
+.skills {
     min-height: 100vh;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -146,7 +149,7 @@
     border-radius: 0.8rem;
 }
 
-.about-me h1 {
+.patch-title h1 {
     font-weight: 600;
     font-size: 1.4rem;
     color: #1d2b5e;
@@ -165,4 +168,32 @@
 
 .about-me p {
     font-weight: 300;
+}
+
+.patchs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+
+    margin-top: 1rem;
+}
+
+.patch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    background-color: #323b5a;
+
+    padding: 2rem;
+
+    border-radius: 0.8rem;
+    box-shadow: 0 1px 10px #00acef;
+}
+
+.patch strong {
+    color: rgba(255, 255, 255, 0.816);
 }
