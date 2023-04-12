@@ -1,12 +1,17 @@
+import { useContext } from 'react';
 import GithubIcon from '../../assets/github.png';
 import LinkedinIcon from '../../assets/linkedin.png';
-import WhatsappIcon from '../../assets/whatsapp.png';
 import MyImage from '../../assets/rodrigo-image.jpeg';
+import WhatsappIcon from '../../assets/whatsapp.png';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
+import ModalMenuMobile from '../../components/ModalMenuMobile';
+import { GlobalContext } from '../../contexts/GlobalContext';
 import './styles.css';
 
 function Home() {
+  const { openMenu } = useContext(GlobalContext);
+
   return (
     <div className='container'>
       <Header />
@@ -28,6 +33,10 @@ function Home() {
         </section>
       </main>
       <Footer />
+      {
+        openMenu &&
+        <ModalMenuMobile />
+      }
     </div>
   );
 }
