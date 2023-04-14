@@ -9,7 +9,7 @@
     bottom: 0;
 }
 
-.container-menu img {
+.close-icon {
     width: 3.2rem;
     height: 3.2rem;
 
@@ -26,10 +26,33 @@
     justify-content: center;
 }
 
+.container-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .container-menu li {
+    width: 8rem;
+    height: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     list-style-type: none;
-    color: #1d2b5e;
+    background-color: #323b5a;
     font-weight: 600;
     font-size: 1.6rem;
     line-height: 4rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 1px 10px #000000;
+}
+
+.container-menu a {
+    color: rgba(255, 255, 255, 0.816);
+    text-decoration: none;
 }

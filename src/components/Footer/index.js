@@ -1,8 +1,9 @@
+import { Link } from 'react-scroll';
 import CopyrightIcon from '../../assets/copyright.png';
-import MiniLogoImage from '../../assets/mini-logo.png';
-import WhatsAppIcon from '../../assets/whatsapp.png';
 import GithubIcon from '../../assets/github.png';
 import LinkedinIcon from '../../assets/linkedin.png';
+import MiniLogoImage from '../../assets/mini-logo.png';
+import WhatsAppIcon from '../../assets/whatsapp.png';
 import './styles.css';
 
 function Footer() {
@@ -15,17 +16,58 @@ function Footer() {
       />
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Sobre</li>
-          <li>Skills</li>
+          <li>
+            <Link
+              ignoreCancelEvents={true}
+              activeClass="active"
+              to="main" spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              ignoreCancelEvents={true}
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Sobre
+            </Link>
+          </li>
+          <li>
+            <Link
+              ignoreCancelEvents={true}
+              activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Skills
+            </Link>
+          </li>
           <li>Projetos</li>
           <li>Contato</li>
         </ul>
       </nav>
       <div className='footer-icons'>
-        <img src={WhatsAppIcon} alt='WhatsApp' />
-        <img src={GithubIcon} alt='GitHub' />
-        <img src={LinkedinIcon} alt='LinkedIn' />
+        <a href='https://api.whatsapp.com/send?phone=5532998498002&text=Ol%C3%A1,%20tudo%20bem?%20Seja%20muito%20bem%20vindo(a)!%20Podemos%20conversar%20sobre%20possivelmente%20trabalharmos%20juntos!?'>
+          <img src={WhatsAppIcon} alt='WhatsApp' />
+        </a>
+        <a href='https://github.com/lanziotti'>
+          <img src={GithubIcon} alt='GitHub' />
+        </a>
+        <a href='https://www.linkedin.com/in/rodrigo-lanziotti-16a64966/'>
+          <img src={LinkedinIcon} alt='LinkedIn' />
+        </a>
       </div>
       <div className='container-copyright'>
         <img

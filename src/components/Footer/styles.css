@@ -27,12 +27,16 @@
     font-weight: 600;
     font-size: 1.2rem;
     list-style-type: none;
-    color: rgba(255, 255, 255, 0.816);
 }
 
 .footer span {
     font-weight: 600;
     color: rgba(255, 255, 255, 0.816);
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.816);
+    text-decoration: none;
 }
 
 .copyright {
