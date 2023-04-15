@@ -1,3 +1,6 @@
+@import url(./custom-classes.css);
+@import url('react-toastify/dist/ReactToastify.min.css');
+
 * {
   margin: 0;
   padding: 0;

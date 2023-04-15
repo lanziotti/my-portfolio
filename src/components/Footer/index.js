@@ -55,7 +55,19 @@ function Footer() {
             </Link>
           </li>
           <li>Projetos</li>
-          <li>Contato</li>
+          <li>
+            <Link
+              ignoreCancelEvents={true}
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Contato
+            </Link>
+          </li>
         </ul>
       </nav>
       <div className='footer-icons'>

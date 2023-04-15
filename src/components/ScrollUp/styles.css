@@ -1,0 +1,25 @@
+.arrow-up {
+    width: 3.6rem;
+    height: 3.6rem;
+
+    background: linear-gradient(90.23deg, #00f58d 0.02%, #00acef 99.63%);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 0.8rem;
+
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.arrow-up img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.arrow-up-off {
+    display: flex;
+}

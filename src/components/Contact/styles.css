@@ -1,0 +1,137 @@
+.contact {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 3rem 2rem;
+}
+
+.contact strong,
+.contact span,
+.contact a {
+    color: rgba(255, 255, 255, 0.816);
+}
+
+.contact strong {
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+
+.contact span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact a {
+    font-size: 1.2rem;
+}
+
+.patchs-contact {
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+    flex-wrap: wrap;
+}
+
+.patch-contact {
+    width: 22.4rem;
+    height: 16rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: #323b5a;
+
+    padding: 2rem;
+
+    border-radius: 0.8rem;
+    box-shadow: 0 1px 10px #00acef;
+}
+
+.patch-contact-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.patch-contact-title img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 2rem;
+}
+
+.content-form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    margin-bottom: 2rem;
+}
+
+.container-form button {
+    all: unset;
+    width: 22rem;
+    background: linear-gradient(90.23deg, #00f58d 0.02%, #00acef 99.63%);
+    text-align: center;
+    color: #1f2a4a;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 1.4rem 0;
+    border-radius: 0.8rem;
+    margin-top: 1rem;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.container-input input,
+.container-input textarea {
+    all: unset;
+    border-radius: 0.6rem;  
+    background-color: #00acef;
+    padding-left: 1rem;  
+    box-shadow: 0 1px 10px #00acef;
+}
+
+.container-input input {
+    height: 4rem;
+}
+
+.container-input input::placeholder,
+.container-input textarea::placeholder {
+    color: #1f2a4a;
+    font-size: 1.2rem;
+}
+
+.container-input textarea {
+    padding-top: 1rem;
+}
+
+.container-input label {
+    color: rgba(255, 255, 255, 0.816);
+    letter-spacing: 0.1rem;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+}
