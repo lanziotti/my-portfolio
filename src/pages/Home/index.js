@@ -5,6 +5,7 @@ import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import ModalMenuMobile from '../../components/ModalMenuMobile';
 import Presentation from '../../components/Presentation';
+import Projects from '../../components/Projects';
 import ScrollUp from '../../components/ScrollUp';
 import Skills from '../../components/Skills';
 import { GlobalContext } from '../../contexts/GlobalContext';
@@ -20,10 +21,11 @@ function Home() {
         <Presentation />
         <About />
         <Skills />
+        <Projects />
         <Contact />
+        <ScrollUp />
       </main>
       <Footer />
-      <ScrollUp />
       {
         openMenu &&
         <ModalMenuMobile />

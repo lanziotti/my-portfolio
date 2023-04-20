@@ -68,7 +68,18 @@ function ModalMenuMobile() {
           </li>
           <li>
             <img src={ProjectsIcon} alt='Projetos' />
-            Projetos
+            <Link
+              ignoreCancelEvents={true}
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+              onClick={() => setOpenMenu(false)}
+            >
+              Projetos
+            </Link>
           </li>
           <li>
             <img src={ContactsIcon} alt='Contato' />

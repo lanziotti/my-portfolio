@@ -97,19 +97,16 @@
 
 .my-image {
     background: linear-gradient(90.23deg, #00f58d 0.02%, #00acef 99.63%);
-}
 
-.my-image {
-    padding: 1.5rem 1.5rem 1rem 1.5rem;
-
-    border-radius: 1rem;
+    border: 1rem solid rgba(255, 255, 255, 0.816);
+    border-radius: 50%;
 
     margin-top: 6rem;
 }
 
 .my-image img {
     width: 20rem;
-    height: 15rem;
+    height: 19.8rem;
 
-    border-radius: 1rem;
+    border-radius: 50%;
 }

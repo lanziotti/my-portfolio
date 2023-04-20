@@ -1,13 +1,13 @@
 import GithubIcon from '../../assets/github.png';
 import LinkedinIcon from '../../assets/linkedin.png';
-import MyImage from '../../assets/rodrigo-image.jpeg';
+import MyImage from '../../assets/rodrigo-image-mobile.png';
 import WhatsappIcon from '../../assets/whatsapp.png';
 import './styles.css';
 
 function Presentation() {
 
     return (
-        <section className='presentation'>
+        <section className='presentation' id='presentation'>
             <div className='container-presentation'>
                 <h2>Olá, bem vindo(a)! Sou o</h2>
                 <h1 className='typing-animation'>Rodrigo Lanziotti</h1>

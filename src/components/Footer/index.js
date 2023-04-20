@@ -54,7 +54,19 @@ function Footer() {
               Skills
             </Link>
           </li>
-          <li>Projetos</li>
+          <li>
+            <Link
+              ignoreCancelEvents={true}
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              offset={-50}
+              duration={500}
+            >
+              Projetos
+            </Link>
+          </li>
           <li>
             <Link
               ignoreCancelEvents={true}
