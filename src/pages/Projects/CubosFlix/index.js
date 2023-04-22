@@ -1,8 +1,14 @@
+import FooterProjects from '../../../components/FooterProjects';
+import HeaderProjects from '../../../components/HeaderProjects';
 import './styles.css';
 
 function CubosFlix() {
     return (
-        <h1>CubosFlix</h1>
+        <div className='container-detail-projects'>
+            <HeaderProjects />
+            <h1>CubosFlix</h1>
+            <FooterProjects />
+        </div>
     );
 }
 

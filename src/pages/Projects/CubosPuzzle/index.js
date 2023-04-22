@@ -1,8 +1,14 @@
 import './styles.css';
+import HeaderProjects from '../../../components/HeaderProjects';
+import FooterProjects from '../../../components/FooterProjects';
 
 function CubosPuzzle() {
     return (
-        <h1>CubosPuzzle</h1>
+        <div className='container-detail-projects'>
+            <HeaderProjects />
+            <h1>CubosPuzzle</h1>
+            <FooterProjects />
+        </div>
     );
 }
 

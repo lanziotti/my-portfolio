@@ -27,3 +27,12 @@
     font-size: 1.4rem;
     color: #1d2b5e;
 }
+
+.container-detail-projects {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 6.8rem;
+}
