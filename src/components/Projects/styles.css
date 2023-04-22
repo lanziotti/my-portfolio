@@ -32,4 +32,36 @@
     gap: 1rem;
 
     margin-top: 4rem;
+    position: relative;
+}
+
+.container-finger img {
+    position: absolute;
+    animation: finger-effect 1.5s infinite ease-out;
+}
+
+.container-finger strong {
+    margin-top: 11rem;
+}
+
+@keyframes finger-effect {
+    0% {
+        top: 4rem;
+    }
+
+    40% {
+        top: -2rem;
+    }
+
+    50% {
+        top: -2rem;
+    }
+
+    60% {
+        top: -2rem;
+    }
+
+    100% {
+        top: 4rem;
+    }
 }
