@@ -24,12 +24,20 @@ function DigitalBanking() {
                     <p>Esse projeto simula diversas funcionalidades de um Banco Digital/Caixa Eletrônico. Nele é possível: Abrir uma conta, Fazer Login no sistema, Atualizar os dados de usuário da conta, Realizar Depósitos, Saques, Transferências, Consulta ao Extrato Bancário, Encerramento de conta, Logout no sistema. Possui um lindo e interativo layout que é muito acessível e intuitivo que, com certeza, chama muito a atenção do usuário.</p>
                     <div className='btns-project'>
                         <button>
-                            <a href='https://banco-digital-ts-front.vercel.app'>
+                            <a
+                                href='https://banco-digital-ts-front.vercel.app'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'<O> Ver projeto'}
                             </a>
                         </button>
                         <button>
-                            <a href='https://github.com/lanziotti/banco-digital-ts'>
+                            <a
+                                href='https://github.com/lanziotti/banco-digital-ts'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'</> Ver código'}
                             </a>
                         </button>
@@ -47,12 +55,20 @@ function DigitalBanking() {
                     <img src={ModalDepositDbImage} alt='Modal Depósito Digital Banking' />
                     <div className='btns-project'>
                         <button>
-                            <a href='https://banco-digital-ts-front.vercel.app'>
+                            <a
+                                href='https://banco-digital-ts-front.vercel.app'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'<O> Ver projeto'}
                             </a>
                         </button>
                         <button>
-                            <a href='https://github.com/lanziotti/banco-digital-ts'>
+                            <a
+                                href='https://github.com/lanziotti/banco-digital-ts'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'</> Ver código'}
                             </a>
                         </button>

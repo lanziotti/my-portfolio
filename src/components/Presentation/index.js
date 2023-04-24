@@ -14,13 +14,25 @@ function Presentation() {
                 <h3>Desenvolvedor Full-Stack</h3>
             </div>
             <div className='presentation-icons'>
-                <a href='https://api.whatsapp.com/send?phone=5532998498002&text=Ol%C3%A1,%20tudo%20bem?%20Seja%20muito%20bem%20vindo(a)!%20Podemos%20conversar%20sobre%20possivelmente%20trabalharmos%20juntos!?'>
+                <a
+                    href='https://api.whatsapp.com/send?phone=5532998498002&text=Ol%C3%A1,%20tudo%20bem?%20Seja%20muito%20bem%20vindo(a)!%20Podemos%20conversar%20sobre%20possivelmente%20trabalharmos%20juntos!?'
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     <img src={WhatsappIcon} alt='WhatsApp' />
                 </a>
-                <a href='https://github.com/lanziotti'>
+                <a
+                    href='https://github.com/lanziotti'
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     <img src={GithubIcon} alt='GitHub' />
                 </a>
-                <a href='https://www.linkedin.com/in/rodrigo-lanziotti-16a64966/'>
+                <a
+                    href='https://www.linkedin.com/in/rodrigo-lanziotti-16a64966/'
+                    target='_blank'
+                    rel='noreferrer'
+                >
                     <img src={LinkedinIcon} alt='LinkedIn' />
                 </a>
             </div>

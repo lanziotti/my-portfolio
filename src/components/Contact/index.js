@@ -58,7 +58,13 @@ function Contact() {
                         <strong>E-mail</strong>
                     </div>
                     <span>rodrigolanziotti@yahoo.com.br</span>
-                    <a href='mailto:rodrigolanziotti@yahoo.com.br'>Entre em contato...</a>
+                    <a
+                        href='mailto:rodrigolanziotti@yahoo.com.br'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        Entre em contato...
+                    </a>
                 </div>
                 <div className='patch-contact'>
                     <div className='patch-contact-title'>
@@ -66,7 +72,13 @@ function Contact() {
                         <strong>WhatsApp</strong>
                     </div>
                     <span>(32)99849-8002</span>
-                    <a href='https://api.whatsapp.com/send?phone=5532998498002&text=Ol%C3%A1,%20tudo%20bem?%20Seja%20muito%20bem%20vindo(a)!%20Podemos%20conversar%20sobre%20possivelmente%20trabalharmos%20juntos!?'>Entre em contato...</a>
+                    <a
+                        href='https://api.whatsapp.com/send?phone=5532998498002&text=Ol%C3%A1,%20tudo%20bem?%20Seja%20muito%20bem%20vindo(a)!%20Podemos%20conversar%20sobre%20possivelmente%20trabalharmos%20juntos!?'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        Entre em contato...
+                    </a>
                 </div>
                 <div className='patch-contact'>
                     <div className='patch-contact-title'>
@@ -74,7 +86,13 @@ function Contact() {
                         <strong>LinkedIn</strong>
                     </div>
                     <span>Rodrigo Lanziotti</span>
-                    <a href='https://www.linkedin.com/in/rodrigo-lanziotti-16a64966/'>Entre em contato...</a>
+                    <a
+                        href='https://www.linkedin.com/in/rodrigo-lanziotti-16a64966/'
+                        target='_blank'
+                        rel='noreferrer'
+                    >
+                        Entre em contato...
+                    </a>
                 </div>
             </div>
             <div className='container-form'>

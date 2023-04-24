@@ -51,7 +51,8 @@
 }
 
 .main-db,
-.main-dindin {
+.main-dindin,
+.main-puzzle {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,7 +62,8 @@
 }
 
 .main-db img,
-.main-dindin img {
+.main-dindin img,
+.main-puzzle img {
     width: 24rem;
     box-shadow: 0 1px 10px #00acef;
 }
@@ -76,7 +78,8 @@
     gap: 2rem;
 }
 
-.patch-title-db {
+.patch-title-db,
+.patch-title-cp {
     width: 14rem;
 }
 

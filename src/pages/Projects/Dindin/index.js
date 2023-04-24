@@ -21,12 +21,20 @@ function Dindin() {
                     <p>Esse projeto consiste de uma aplicação para controle financeiro pessoal. Dentre suas diversas funcionalidades estão: Cadastro de usuário no sistema, Login do usuário cadastrado, Edição do perfil do usuário, Cadastro de uma transação, Edição de uma transação, Exclusão de uma transação, Filtragem das transações por categoria e Ordenação das transações por data, Logout do usuário do sistema.</p>
                     <div className='btns-project'>
                         <button>
-                            <a href='https://dindin-phi.vercel.app/'>
+                            <a
+                                href='https://dindin-phi.vercel.app/'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'<O> Ver projeto'}
                             </a>
                         </button>
                         <button>
-                            <a href='https://github.com/lanziotti/Dindin'>
+                            <a
+                                href='https://github.com/lanziotti/Dindin'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'</> Ver código'}
                             </a>
                         </button>
@@ -43,12 +51,20 @@ function Dindin() {
                     <img src={ModalRegisterDindinImage} alt='Modal Register Dindin' />
                     <div className='btns-project'>
                         <button>
-                            <a href='https://dindin-phi.vercel.app/'>
+                            <a
+                                href='https://dindin-phi.vercel.app/'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'<O> Ver projeto'}
                             </a>
                         </button>
                         <button>
-                            <a href='https://github.com/lanziotti/Dindin'>
+                            <a
+                                href='https://github.com/lanziotti/Dindin'
+                                target='_blank'
+                                rel='noreferrer'
+                            >
                                 {'</> Ver código'}
                             </a>
                         </button>
