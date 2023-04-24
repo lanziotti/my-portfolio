@@ -27,6 +27,8 @@
     font-weight: 600;
     font-size: 1.2rem;
     list-style-type: none;
+
+    cursor: pointer;
 }
 
 .footer span {

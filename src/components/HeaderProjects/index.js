@@ -8,7 +8,7 @@ function HeaderProjects() {
   return (
     <header className='header'>
       <img
-        className='mini-logo-image'
+        className='mini-logo-image mini-logo-image-projects'
         src={MiniLogoImage}
         alt='Logo'
         onClick={() => navigate('/')}

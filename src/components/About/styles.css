@@ -23,3 +23,28 @@
 .about-me p {
     font-weight: 300;
 }
+
+.btn-cv {
+    all: unset;
+
+    width: 10rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    text-decoration: none;
+    color: #00acef;
+
+    border: 1px solid #00acef;
+    border-radius: 0.8rem;
+
+    cursor: pointer;
+}
+
+.btn-cv:hover {
+    box-shadow: 0 0 15px #00acef, inset 0 0 15px #00acef;
+    text-shadow: 0 0 15px #00acef;
+}
