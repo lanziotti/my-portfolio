@@ -1,12 +1,12 @@
 import HomeDbImage from '../../../assets/home-db.png';
 import MainDbImage from '../../../assets/main-db.png';
+import ModalDeleteDbImage from '../../../assets/modal-delete-db.png';
+import ModalDepositDbImage from '../../../assets/modal-deposit-db.png';
 import ModalLoginDbImage from '../../../assets/modal-login-db.png';
+import ModalUpdateDbImage from '../../../assets/modal-update-db.png';
 import RegisterDbImage from '../../../assets/register-db.png';
 import FooterProjects from '../../../components/FooterProjects';
 import HeaderProjects from '../../../components/HeaderProjects';
-import ModalDepositDbImage from '../../../assets/modal-deposit-db.png';
-import ModalUpdateDbImage from '../../../assets/modal-update-db.png';
-import ModalDeleteDbImage from '../../../assets/modal-delete-db.png';
 import './styles.css';
 
 function DigitalBanking() {

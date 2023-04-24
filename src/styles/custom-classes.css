@@ -49,3 +49,67 @@
 .container-detail-projects h3 {
     letter-spacing: 0.2rem;
 }
+
+.main-db,
+.main-dindin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    padding: 3rem 2rem;
+}
+
+.main-db img,
+.main-dindin img {
+    width: 24rem;
+    box-shadow: 0 1px 10px #00acef;
+}
+
+.project-presentation,
+.project-details {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.patch-title-db {
+    width: 14rem;
+}
+
+.btns-project {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+}
+
+.btns-project button {
+    all: unset;
+
+    width: 10rem;
+    height: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    background-color: #1f2a4a;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    box-shadow: 0 1px 10px #00acef;
+
+    margin-bottom: 2rem;
+}
+
+.btns-project button a {
+    color: rgba(255, 255, 255, 0.816);
+    text-decoration: none;
+}
