@@ -35,4 +35,17 @@
     flex-direction: column;
     justify-content: space-between;
     padding-top: 6.8rem;
+
+    background-color: rgba(255, 255, 255, 0.816);
+}
+
+.container-detail-projects h1,
+.container-detail-projects h2,
+.container-detail-projects p,
+.container-detail-projects h3 {
+    color: #1d2b5e;
+}
+
+.container-detail-projects h3 {
+    letter-spacing: 0.2rem;
 }
