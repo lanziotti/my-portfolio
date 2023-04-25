@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 412px) {
 
-    .header img {
+    .mini-logo-image {
         width: 5.4rem;
         height: 5.8rem;
     }
@@ -37,5 +37,18 @@
     .menu-image {
         width: 6.2rem;
         height: 6.2rem;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+
+    .mini-logo-image {
+        width: 5.6rem;
+        height: 6rem;
+    }
+
+    .menu-image {
+        width: 6.4rem;
+        height: 6.4rem;
     }
 }

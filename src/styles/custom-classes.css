@@ -223,3 +223,68 @@
         font-size: 1.2rem;
     }
 }
+
+@media only screen and (min-width: 540px) {
+    .patch-title {
+        width: 18rem;
+
+    }
+
+    .patch-title-db,
+    .patch-title-cp {
+        width: 24rem;
+    }
+
+    .patch-title h1,
+    .patch-title-db h1,
+    .patch-title-cp h1 {
+        font-size: 2.2rem;
+    }
+
+    .main-db,
+    .main-dindin,
+    .main-puzzle,
+    .main-flix {
+        padding: 4rem 3rem;
+    }
+
+    .main-db img,
+    .main-dindin img,
+    .main-puzzle img,
+    .main-flix img {
+        width: 48rem;
+    }
+
+    .main-db h2,
+    .main-dindin h2,
+    .main-puzzle h2,
+    .main-flix h2 {
+        font-size: 2rem;
+    }
+
+    .main-db h3,
+    .main-dindin h3,
+    .main-puzzle h3,
+    .main-flix h3 {
+        font-size: 1.8rem;
+    }
+
+    .main-db p,
+    .main-dindin p,
+    .main-puzzle p,
+    .main-flix p {
+        font-size: 1.6rem;
+    }
+
+    .btns-project {
+        padding: 0 0.2rem;
+    }
+
+    .btns-project button {
+        width: 14rem;
+    }
+
+    .btns-project button a {
+        font-size: 1.4rem;
+    }
+}

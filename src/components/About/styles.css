@@ -74,3 +74,16 @@
         font-size: 1.4rem;
     }
 }
+
+@media only screen and (min-width: 540px) {
+
+    .about-me h3,
+    .about-me p {
+        font-size: 2rem;
+    }
+
+    .btn-cv {
+        width: 18rem;
+        font-size: 1.6rem;
+    }
+}

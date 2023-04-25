@@ -185,3 +185,41 @@
         }
     }
 }
+
+@media only screen and (min-width: 540px) {
+    .container-presentation h2 {
+        font-size: 2.4rem;
+    }
+
+    .container-presentation h1 {
+        font-size: 3rem;
+    }
+
+    .container-presentation h3 {
+        font-size: 2rem;
+    }
+
+    .presentation-icons {
+        gap: 4rem;
+    }
+
+    .presentation-icons img {
+        width: 4.4rem;
+        height: 4.4rem;
+    }
+
+    .my-image img {
+        width: 36rem;
+        height: 35.8rem;
+    }
+
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+    
+        50% {
+            width: 25.533rem;
+        }
+    }
+}

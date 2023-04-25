@@ -204,3 +204,47 @@
         font-size: 1.2rem;
     }
 }
+
+@media only screen and (min-width: 540px) {
+    .contact strong {
+        font-size: 2rem;
+    }
+
+    .patch-contact {
+        width: 35.4rem;
+        height: 29rem;
+    }
+
+    .patch-contact-title img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .patch-contact-title strong {
+        font-size: 2.2rem;
+    }
+
+    .contact span,
+    .contact a {
+        font-size: 1.8rem;
+    }
+
+    .container-form button {
+        font-size: 1.8rem;
+
+        margin-top: 4rem;
+    }
+
+    .container-input {
+        gap: 0.6rem;
+    }
+
+    .container-input input::placeholder,
+    .container-input textarea::placeholder {
+        font-size: 1.6rem;
+    }
+
+    .container-input label {
+        font-size: 1.4rem;
+    }
+}

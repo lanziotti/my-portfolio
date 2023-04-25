@@ -80,3 +80,14 @@
         margin-top: 13rem;
     }
 }
+
+@media only screen and (min-width: 540px) {
+    .projects strong {
+        font-size: 2rem;
+    }
+
+    .container-finger img {
+        width: 7.6rem;
+        height: 7.6rem;
+    }
+}
