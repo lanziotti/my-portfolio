@@ -75,3 +75,20 @@
         font-size: 2rem;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .patch {
+        width: 30.4rem;
+        height: 32.2rem;
+        gap: 2rem;
+    }
+
+    .patch img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .patch strong {
+        font-size: 2.6rem;
+    }
+}

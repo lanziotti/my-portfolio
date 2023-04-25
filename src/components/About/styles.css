@@ -87,3 +87,20 @@
         font-size: 1.6rem;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    .about-me {
+        padding: 5rem 4rem;
+    }
+
+    .about-me h3,
+    .about-me p {
+        font-size: 2.4rem;
+    }
+
+    .btn-cv {
+        width: 20rem;
+        height: 6rem;
+        font-size: 1.8rem;
+    }
+}
