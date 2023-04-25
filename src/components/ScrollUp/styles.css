@@ -74,3 +74,16 @@
         height: 3rem;
     }
 }
+
+@media only screen and (min-width: 820px) {
+
+    .arrow-up {
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .arrow-up img {
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+}

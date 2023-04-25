@@ -102,3 +102,18 @@
         height: 8.2rem;
     }
 }
+
+@media only screen and (min-width: 820px) {
+    .projects strong {
+        font-size: 2.8rem;
+    }
+
+    .container-finger img {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .container-finger strong {
+        margin-top: 15rem;
+    }
+}

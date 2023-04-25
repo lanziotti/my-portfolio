@@ -265,3 +265,41 @@
         }
     }
 }
+
+@media only screen and (min-width: 820px) {
+    .container-presentation h2 {
+        font-size: 3.8rem;
+    }
+
+    .container-presentation h1 {
+        font-size: 4.4rem;
+    }
+
+    .container-presentation h3 {
+        font-size: 3.4rem;
+    }
+
+    .presentation-icons {
+        gap: 8rem;
+    }
+
+    .presentation-icons img {
+        width: 5.6rem;
+        height: 5.6rem;
+    }
+
+    .my-image img {
+        width: 58rem;
+        height: 57.8rem;
+    }
+
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+    
+        50% {
+            width: 37.355rem;
+        }
+    }
+}
