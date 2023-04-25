@@ -61,3 +61,14 @@
     align-items: center;
     gap: 0.2rem;
 }
+
+@media only screen and (min-width: 360px) {
+    .footer li {
+        font-size: 1.4rem;
+    }
+
+    .footer-icons img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+}

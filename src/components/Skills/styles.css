@@ -36,3 +36,13 @@
 .patch strong {
     color: rgba(255, 255, 255, 0.816);
 }
+
+@media only screen and (min-width: 360px) {
+    .patch {
+        padding: 4rem;
+    }
+
+    .patch strong {
+        font-size: 1.1rem;
+    }
+}

@@ -48,3 +48,16 @@
     box-shadow: 0 0 15px #00acef, inset 0 0 15px #00acef;
     text-shadow: 0 0 15px #00acef;
 }
+
+@media only screen and (min-width: 360px) {
+
+    .about-me h3,
+    .about-me p {
+        font-size: 1.4rem;
+    }
+
+    .btn-cv {
+        width: 12rem;
+        font-size: 1.2rem;
+    }
+}

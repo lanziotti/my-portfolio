@@ -106,9 +106,9 @@
 .container-input input,
 .container-input textarea {
     all: unset;
-    border-radius: 0.6rem;  
+    border-radius: 0.6rem;
     background-color: #00acef;
-    padding-left: 1rem;  
+    padding-left: 1rem;
     box-shadow: 0 1px 10px #00acef;
 }
 
@@ -136,4 +136,25 @@
     justify-content: center;
 
     cursor: pointer;
+}
+
+@media only screen and (min-width: 360px) {
+    .patch-contact {
+        width: 27.4rem;
+        height: 21rem;
+    }
+
+    .patch-contact-title img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    .patch-contact-title strong {
+        font-size: 1.6rem;
+    }
+
+    .contact span,
+    .contact a {
+        font-size: 1.4rem;
+    }
 }

@@ -57,3 +57,19 @@
     color: rgba(255, 255, 255, 0.816);
     text-decoration: none;
 }
+
+@media only screen and (min-width: 360px) {
+    .container-menu li {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .container-menu li img {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .container-menu a {
+        font-size: 1.8rem;
+    }
+}

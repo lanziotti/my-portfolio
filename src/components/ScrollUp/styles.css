@@ -26,3 +26,12 @@
 .arrow-up-off {
     display: flex;
 }
+
+@media only screen and (min-width: 360px) {
+
+    .arrow-up {
+        width: 4.2rem;
+        height: 4.2rem;
+    }
+
+}
