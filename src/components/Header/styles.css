@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 3;
 
     padding: 1rem 1rem 1rem 2rem;
 }
@@ -24,5 +24,18 @@
     .menu-image {
         width: 5.4rem;
         height: 5.4rem;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+
+    .header img {
+        width: 5.4rem;
+        height: 5.8rem;
+    }
+
+    .menu-image {
+        width: 6.2rem;
+        height: 6.2rem;
     }
 }

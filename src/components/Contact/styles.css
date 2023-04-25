@@ -44,6 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
 
     background-color: #323b5a;
@@ -156,5 +157,50 @@
     .contact span,
     .contact a {
         font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+    .contact strong {
+        font-size: 1.6rem;
+    }
+
+    .patch-contact {
+        width: 31.4rem;
+        height: 25rem;
+    }
+
+    .patch-contact-title img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .patch-contact-title strong {
+        font-size: 1.8rem;
+    }
+
+    .contact span,
+    .contact a {
+        font-size: 1.6rem;
+    }
+
+    .container-form button {
+        width: 26rem;
+        font-size: 1.6rem;
+
+        margin-top: 2rem;
+    }
+
+    .container-input {
+        gap: 0.4rem;
+    }
+
+    .container-input input::placeholder,
+    .container-input textarea::placeholder {
+        font-size: 1.4rem;
+    }
+
+    .container-input label {
+        font-size: 1.2rem;
     }
 }

@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 2;
+    z-index: 4;
 }
 
 .close-icon {
@@ -71,5 +71,26 @@
 
     .container-menu a {
         font-size: 1.8rem;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+    .close-icon {
+        width: 3.6rem;
+        height: 3.6rem;
+    }
+
+    .container-menu li {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .container-menu li img {
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+
+    .container-menu a {
+        font-size: 2rem;
     }
 }
