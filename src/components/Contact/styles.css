@@ -353,3 +353,62 @@
         font-size: 1.8rem;
     }
 }
+
+@media only screen and (min-width: 912px) {
+    .contact strong {
+        font-size: 3.8rem;
+    }
+
+    .patch-contact {
+        width: 60.4rem;
+        height: 54rem;
+    }
+
+    .patch-contact-title {
+        gap: 2rem;
+    }
+
+    .patch-contact-title img {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    .patch-contact-title strong {
+        font-size: 3.8rem;
+    }
+
+    .contact span,
+    .contact a {
+        font-size: 3.2rem;
+    }
+
+    .content-form {
+        gap: 3rem;
+    }
+
+    .container-form button {
+        width: 36rem;
+        font-size: 2.8rem;
+    }
+
+    .container-input {
+        gap: 1rem;
+    }
+
+    .container-input input {
+        height: 6rem;
+    }
+
+    .container-input input::placeholder,
+    .container-input textarea::placeholder {
+        font-size: 2.4rem;
+    }
+
+    .container-input label {
+        font-size: 2rem;
+    }
+
+    .form-btn {
+        margin-bottom: 2rem;
+    }
+}

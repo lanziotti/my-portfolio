@@ -117,3 +117,22 @@
         margin-top: 15rem;
     }
 }
+
+@media only screen and (min-width: 912px) {
+    .projects strong {
+        font-size: 3.8rem;
+    }
+
+    .carousel {
+        margin-top: 4rem;
+    }
+
+    .container-finger img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .container-finger strong {
+        margin-top: 18rem;
+    }
+}

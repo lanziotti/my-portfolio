@@ -303,3 +303,45 @@
         }
     }
 }
+
+@media only screen and (min-width: 912px) {
+    .container-presentation {
+        padding: 8rem 2rem;
+    }
+
+    .container-presentation h2 {
+        font-size: 4.6rem;
+    }
+
+    .container-presentation h1 {
+        font-size: 5.2rem;
+    }
+
+    .container-presentation h3 {
+        font-size: 4.2rem;
+    }
+
+    .presentation-icons {
+        gap: 10rem;
+    }
+
+    .presentation-icons img {
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+
+    .my-image img {
+        width: 72rem;
+        height: 71.8rem;
+    }
+
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+    
+        50% {
+            width: 44.109rem;
+        }
+    }
+}

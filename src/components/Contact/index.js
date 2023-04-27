@@ -129,7 +129,7 @@ function Contact() {
                             type='text'
                             name='message'
                             cols="30"
-                            rows="12"
+                            rows="20"
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                         />

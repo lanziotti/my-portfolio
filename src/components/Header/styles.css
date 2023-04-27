@@ -84,3 +84,19 @@
         height: 8rem;
     }
 }
+
+@media only screen and (min-width: 912px) {
+    .header {
+        padding: 1rem 4rem 1rem 5rem;
+    }
+
+    .mini-logo-image {
+        width: 8.6rem;
+        height: 9rem;
+    }
+
+    .menu-image {
+        width: 9rem;
+        height: 9rem;
+    }
+}

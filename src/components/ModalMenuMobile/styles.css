@@ -117,3 +117,26 @@
         font-size: 2.8rem;
     }
 }
+
+@media only screen and (min-width: 912px) {
+    .close-icon {
+        width: 6.4rem;
+        height: 6.4rem;
+        top: 4rem;
+        right: 4rem;
+    }
+
+    .container-menu li {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .container-menu li img {
+        width: 4.2rem;
+        height: 4.2rem;
+    }
+
+    .container-menu a {
+        font-size: 3.2rem;
+    }
+}
