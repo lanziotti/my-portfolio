@@ -136,3 +136,13 @@
         margin-top: 18rem;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .projects strong {
+        font-size: 2.8rem;
+    }
+
+    .carousel {
+        margin-top: 1rem;
+    }
+}

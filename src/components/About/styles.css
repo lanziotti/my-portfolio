@@ -9,18 +9,41 @@
     padding: 3rem 2rem;
 }
 
-.about-me h3,
-.about-me p {
+.content-about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8rem;
+}
+
+.content-about img {
+    display: none;
+    width: 36rem;
+    height: 33.3rem;
+    border-radius: 50%;
+    border: 1rem solid rgba(255, 255, 255, 0.816);
+}
+
+.second-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.second-about h3,
+.second-about p {
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.816);
 }
 
-.about-me h3 {
+.second-about h3 {
     font-weight: 600;
     letter-spacing: 0.2rem;
 }
 
-.about-me p {
+.second-about p {
     font-weight: 300;
 }
 
@@ -51,8 +74,8 @@
 
 @media only screen and (min-width: 360px) {
 
-    .about-me h3,
-    .about-me p {
+    .second-about h3,
+    .second-about p {
         font-size: 1.4rem;
     }
 
@@ -64,8 +87,8 @@
 
 @media only screen and (min-width: 412px) {
 
-    .about-me h3,
-    .about-me p {
+    .second-about h3,
+    .second-about p {
         font-size: 1.6rem;
     }
 
@@ -77,8 +100,8 @@
 
 @media only screen and (min-width: 540px) {
 
-    .about-me h3,
-    .about-me p {
+    .second-about h3,
+    .second-about p {
         font-size: 2rem;
     }
 
@@ -89,12 +112,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .about-me {
+    .second-about {
         padding: 5rem 4rem;
     }
 
-    .about-me h3,
-    .about-me p {
+    .second-about h3,
+    .second-about p {
         font-size: 2.4rem;
     }
 
@@ -106,8 +129,9 @@
 }
 
 @media only screen and (min-width: 820px) {
-    .about-me h3,
-    .about-me p {
+
+    .second-about h3,
+    .second-about p {
         font-size: 2.8rem;
     }
 
@@ -124,8 +148,8 @@
         padding: 6rem 5rem;
     }
 
-    .about-me h3,
-    .about-me p {
+    .second-about h3,
+    .second-about p {
         font-size: 3.8rem;
     }
 
@@ -135,5 +159,29 @@
         font-size: 2.8rem;
 
         margin: 3rem 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .content-about img {
+        display: block;
+    }
+
+    .second-about {
+        padding: 0;
+    }
+
+    .second-about h3,
+    .second-about p {
+        font-size: 1.4rem;
+    }
+
+    .btn-cv {
+        width: 16rem;
+        height: 6rem;
+        font-size: 1.6rem;
+
+        margin: 1rem 0;
     }
 }

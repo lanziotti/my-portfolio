@@ -15,6 +15,39 @@
     padding: 1rem 1rem 1rem 2rem;
 }
 
+.header nav {
+    display: none;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.header li {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.816);
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.2rem;
+}
+
+.header li:hover {
+    color: #00acef;
+    letter-spacing: 0.4rem;
+    transform: scale(1.1);
+    transition: 0.5s;
+    text-shadow: 0 1px 10px #00acef;
+}
+
+.logo-image {
+    display: none;
+    width: 30rem;
+    height: -20rem;
+}
+
 .menu-image {
     width: 4.8rem;
     height: 4.8rem;
@@ -98,5 +131,31 @@
     .menu-image {
         width: 9rem;
         height: 9rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        padding: 1rem 4rem 1rem 3rem;
+    }
+
+    .header nav {
+        display: block;
+    }
+
+    .logo-image {
+        display: block;
+    }
+
+    .mini-logo-image {
+        display: none;
+    }
+
+    .menu-image {
+        display: none;
+    }
+
+    .mini-logo-image-projects {
+        display: none;
     }
 }
