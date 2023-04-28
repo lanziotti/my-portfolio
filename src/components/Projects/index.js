@@ -20,7 +20,7 @@ function Projects() {
             <div className='carousel'>
                 <Carousel
                     showThumbs={false}
-                    showStatus={true}
+                    showStatus={false}
                     autoPlay={true}
                     infiniteLoop={true}
                     transitionTime={3}

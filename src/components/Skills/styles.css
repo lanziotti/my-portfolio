@@ -176,3 +176,24 @@
         font-size: 2.6rem;
     }
 }
+
+@media only screen and (min-width: 1366px) {
+    .patchs {
+        gap: 4rem;
+    }
+
+    .patch {
+        width: 36.4rem;
+        height: 38.2rem;
+        gap: 3rem;
+    }
+
+    .patch img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .patch strong {
+        font-size: 2.8rem;
+    }
+}
