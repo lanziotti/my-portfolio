@@ -227,3 +227,34 @@
         font-size: 1.2rem;
     }
 }
+
+@media only screen and (min-width: 1280px) {
+    .mini-logo-footer {
+        width: 8.6rem;
+        height: 9rem;
+        left: 3rem;
+    }
+
+    .footer ul {
+        margin-top: 2rem;
+        gap: 6rem;
+    }
+
+    .footer li {
+        font-size: 2.2rem;
+    }
+
+    .footer-icons img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .container-copyright img {
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .container-copyright span {
+        font-size: 1.4rem;
+    }
+}

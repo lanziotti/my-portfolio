@@ -459,3 +459,32 @@
         font-size: 1.8rem;
     }
 }
+
+@media only screen and (min-width: 1280px) {
+    .contact strong {
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .patchs-contact {
+        gap: 3.2rem;
+    }
+
+    .patch-contact {
+        width: 36.4rem;
+        height: 40rem;
+    }
+
+    .patch-contact-title {
+        gap: 2rem;
+    }
+
+    .patch-contact-title strong {
+        font-size: 2.6rem;
+    }
+
+    .contact span,
+    .contact a {
+        font-size: 2rem;
+    }
+}

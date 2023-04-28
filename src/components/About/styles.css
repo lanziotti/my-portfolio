@@ -185,3 +185,23 @@
         margin: 1rem 0;
     }
 }
+
+@media only screen and (min-width: 1280px) {
+
+    .content-about img {
+        width: 46rem;
+        height: 43.3rem;
+    }
+
+    .second-about h3,
+    .second-about p {
+        font-size: 1.8rem;
+    }
+
+    .btn-cv {
+        width: 18rem;
+        font-size: 1.8rem;
+
+        margin: 2rem 0;
+    }
+}
