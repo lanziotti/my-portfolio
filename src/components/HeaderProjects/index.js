@@ -9,7 +9,7 @@ function HeaderProjects() {
   return (
     <header className='header'>
       <img
-        className='logo-image'
+        className='logo-image logo-image-projects'
         src={LogoImage}
         alt='Logo'
         onClick={() => navigate('/')}

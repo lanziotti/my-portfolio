@@ -223,3 +223,28 @@
         font-size: 2rem;
     }
 }
+
+@media only screen and (min-width: 1600px) {
+    .content-about {
+        padding: 6rem;
+    }
+
+    .content-about img {
+        width: 62rem;
+        height: 59.3rem;
+    }
+
+    .second-about {
+        gap: 4rem;
+    }
+
+    .second-about h3,
+    .second-about p {
+        font-size: 2.2rem;
+    }
+
+    .btn-cv {
+        width: 20rem;
+        font-size: 2rem;
+    }
+}

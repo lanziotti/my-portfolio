@@ -257,6 +257,19 @@
     .container-copyright span {
         font-size: 1.4rem;
     }
+    
+    .footer li a:hover {
+        color: #00acef;
+        letter-spacing: 0.4rem;
+        transform: scale(1.1);
+        transition: 0.5s;
+        text-shadow: 0 1px 10px #00acef;
+    }
+
+    .footer-icons img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 }
 
 @media only screen and (min-width: 1366px) {

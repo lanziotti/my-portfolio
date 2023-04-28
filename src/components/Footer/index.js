@@ -35,7 +35,7 @@ function Footer() {
               to="about"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-40}
               duration={500}
             >
               Sobre
@@ -48,7 +48,7 @@ function Footer() {
               to="skills"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-70}
               duration={500}
             >
               Skills
@@ -61,7 +61,7 @@ function Footer() {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-70}
               duration={500}
             >
               Projetos
@@ -74,7 +74,7 @@ function Footer() {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-70}
               duration={500}
             >
               Contato

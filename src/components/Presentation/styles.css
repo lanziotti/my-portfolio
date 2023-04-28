@@ -439,6 +439,11 @@
         width: 5rem;
         height: 5rem;
     }
+    
+    .presentation-icons img:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 
     .my-image img {
         width: 46rem;
@@ -473,6 +478,7 @@
         font-size: 4.2rem;
     }
 
+
     .my-image img {
         width: 51rem;
         height: 50.8rem;
@@ -485,6 +491,39 @@
     
         50% {
             width: 44.109rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .presentation {
+        padding: 0 10rem;
+    }
+
+    .container-presentation h2 {
+        font-size: 5rem;
+    }
+
+    .container-presentation h1 {
+        font-size: 5.6rem;
+    }
+
+    .container-presentation h3 {
+        font-size: 4.6rem;
+    }
+
+    .my-image img {
+        width: 60rem;
+        height: 59.8rem;
+    }
+
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+    
+        50% {
+            width: 47.488rem;
         }
     }
 }

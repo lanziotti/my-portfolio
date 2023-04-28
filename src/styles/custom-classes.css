@@ -589,6 +589,20 @@
     .btns-project button a {
         font-size: 2.2rem;
     }
+    
+    .btns-project button {
+        cursor: pointer;
+    }
+
+    .btns-project button:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+        text-shadow: 0 1px 10px #00acef;
+    }
+
+    .btns-project a:hover {
+        color: #00acef;
+    }
 }
 
 @media only screen and (min-width: 1366px) {
@@ -634,5 +648,22 @@
     .main-puzzle p,
     .main-flix p {
         font-size: 2.6rem;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .main-db,
+    .main-dindin,
+    .main-puzzle,
+    .main-flix {
+        padding: 8rem 10rem;
+    }
+
+    .main-db img,
+    .main-dindin img,
+    .main-puzzle img,
+    .main-flix img {
+        width: 166rem;
+        margin-bottom: 4rem;
     }
 }

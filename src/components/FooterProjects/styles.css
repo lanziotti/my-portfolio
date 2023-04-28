@@ -1,0 +1,10 @@
+.mini-logo-footer-projects {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1280px) {
+    .mini-logo-footer-projects:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+}

@@ -12,7 +12,7 @@ function FooterProjects() {
   return (
     <footer className='footer'>
       <img
-        className='mini-logo-footer'
+        className='mini-logo-footer mini-logo-footer-projects'
         src={MiniLogoImage}
         alt='Logo'
         onClick={() => navigate('/')}

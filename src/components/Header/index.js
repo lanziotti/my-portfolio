@@ -27,7 +27,8 @@ function Header() {
             <Link
               ignoreCancelEvents={true}
               activeClass="active"
-              to="main" spy={true}
+              to="main"
+              spy={true}
               smooth={true}
               offset={0}
               duration={500}
@@ -43,7 +44,7 @@ function Header() {
               to="about"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-40}
               duration={500}
               onClick={() => setOpenMenu(false)}
             >
@@ -57,7 +58,7 @@ function Header() {
               to="skills"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-70}
               duration={500}
               onClick={() => setOpenMenu(false)}
             >
@@ -71,7 +72,7 @@ function Header() {
               to="projects"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-70}
               duration={500}
               onClick={() => setOpenMenu(false)}
             >
@@ -85,7 +86,7 @@ function Header() {
               to="contact"
               spy={true}
               smooth={true}
-              offset={-50}
+              offset={-70}
               duration={500}
               onClick={() => setOpenMenu(false)}
             >

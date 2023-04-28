@@ -166,3 +166,9 @@
         padding: 0 4rem;
     }
 }
+
+@media only screen and (min-width: 1366px) {
+    .carousel {
+        padding: 0 6rem;
+    }
+}
