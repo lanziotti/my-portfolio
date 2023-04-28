@@ -12,7 +12,7 @@ O layout foi totalmente desenvolvido por mim e, para sua construção, utilizei-
 
 ## Acesse o Portfólio aqui: 
 
-https://my-portfolio-ten-tau-66.vercel.app
+https://www.lanfrei.com.br
 
 ## Contatos
 - Email: rodrigolanziotti@yahoo.com.br  
