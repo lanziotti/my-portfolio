@@ -9,6 +9,9 @@ import TypeormIcom from '../../assets/typeorm.svg';
 import TypescriptIcon from '../../assets/typescript-icon.svg';
 import KnexIcon from '../../assets/knex.svg';
 import JestIcon from '../../assets/jest.svg';
+import ExpresIcon from '../../assets/express.svg';
+import JwtIcon from '../../assets/jwt-icon.svg';
+import SwaggerIcon from '../../assets/swagger.svg';
 import './styles.css';
 
 function Skills() {
@@ -36,6 +39,10 @@ function Skills() {
               <strong>REACTJS</strong>
             </div>
             <div className='patch'>
+              <img className='new-icon' src={ExpresIcon} alt='Express' />
+              <strong>EXPRESS</strong>
+            </div>
+            <div className='patch'>
               <img className='new-icon' src={PostgreIcon} alt='PostgreSQL' />
               <strong>POSTGRESQL</strong>
             </div>
@@ -50,6 +57,14 @@ function Skills() {
             <div className='patch'>
               <img className='new-icon' src={JestIcon} alt='Jest' />
               <strong>JEST</strong>
+            </div>
+            <div className='patch'>
+              <img className='new-icon' src={SwaggerIcon} alt='Swagger' />
+              <strong>SWAGGER</strong>
+            </div>
+            <div className='patch'>
+              <img className='new-icon' src={JwtIcon} alt='JWT' />
+              <strong>JWT</strong>
             </div>
             <div className='patch'>
               <img className='new-icon' src={HtmlIcon} alt='HTML' />
