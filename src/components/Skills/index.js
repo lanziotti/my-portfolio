@@ -1,10 +1,14 @@
-import CssIcon from '../../assets/css.png';
-import GitIcon from '../../assets/git.png';
-import HtmlIcon from '../../assets/html.png';
-import JavascriptIcon from '../../assets/javascript.png';
-import NodeIcon from '../../assets/node.png';
-import ReactIcon from '../../assets/react.png';
-import TypescriptIcon from '../../assets/typescript.png';
+import CssIcon from '../../assets/css-3.svg';
+import GitIcon from '../../assets/git-icon.svg';
+import HtmlIcon from '../../assets/html-5.svg';
+import JavascriptIcon from '../../assets/javascript.svg';
+import NodeIcon from '../../assets/nodejs-icon-alt.svg';
+import PostgreIcon from '../../assets/postgresql.svg';
+import ReactIcon from '../../assets/react.svg';
+import TypeormIcom from '../../assets/typeorm.svg';
+import TypescriptIcon from '../../assets/typescript-icon.svg';
+import KnexIcon from '../../assets/knex.svg';
+import JestIcon from '../../assets/jest.svg';
 import './styles.css';
 
 function Skills() {
@@ -16,31 +20,47 @@ function Skills() {
           </div>
           <div className='patchs'>
             <div className='patch'>
-              <img src={JavascriptIcon} alt='Javascript' />
+              <img className='new-icon' src={JavascriptIcon} alt='Javascript' />
               <strong>JAVASCRIPT</strong>
             </div>
             <div className='patch'>
-              <img src={TypescriptIcon} alt='Typescript' />
+              <img className='new-icon' src={TypescriptIcon} alt='Typescript' />
               <strong>TYPESCRIPT</strong>
             </div>
             <div className='patch'>
-              <img src={NodeIcon} alt='NodeJS' />
+              <img className='new-icon' src={NodeIcon} alt='NodeJS' />
               <strong>NODEJS</strong>
             </div>
             <div className='patch'>
-              <img src={ReactIcon} alt='ReactJS' />
+              <img className='new-icon' src={ReactIcon} alt='ReactJS' />
               <strong>REACTJS</strong>
             </div>
             <div className='patch'>
-              <img src={HtmlIcon} alt='HTML' />
-              <strong>HTML</strong>
+              <img className='new-icon' src={PostgreIcon} alt='PostgreSQL' />
+              <strong>POSTGRESQL</strong>
             </div>
             <div className='patch'>
-              <img src={CssIcon} alt='CSS' />
-              <strong>CSS</strong>
+              <img className='new-icon' src={KnexIcon} alt='Knex' />
+              <strong>KNEX</strong>
             </div>
             <div className='patch'>
-              <img src={GitIcon} alt='Git' />
+              <img className='new-icon' src={TypeormIcom} alt='TypeORM' />
+              <strong>TYPEORM</strong>
+            </div>
+            <div className='patch'>
+              <img className='new-icon' src={JestIcon} alt='Jest' />
+              <strong>JEST</strong>
+            </div>
+            <div className='patch'>
+              <img className='new-icon' src={HtmlIcon} alt='HTML' />
+              <strong>HTML5</strong>
+            </div>
+            <div className='patch'>
+              <img className='new-icon' src={CssIcon} alt='CSS' />
+              <strong>CSS3</strong>
+            </div>
+            <div className='patch'>
+              <img className='new-icon' src={GitIcon} alt='Git' />
               <strong>GIT</strong>
             </div>
           </div>

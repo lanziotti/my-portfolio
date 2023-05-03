@@ -37,6 +37,11 @@
     color: rgba(255, 255, 255, 0.816);
 }
 
+.new-icon {
+    width: 6.4rem;
+    height: 6.4rem;
+}
+
 @media only screen and (min-width: 360px) {
     .patch {
         padding: 4rem;
