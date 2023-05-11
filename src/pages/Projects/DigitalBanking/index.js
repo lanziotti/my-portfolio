@@ -7,7 +7,6 @@ import ModalUpdateDbImage from '../../../assets/modal-update-db.png';
 import RegisterDbImage from '../../../assets/register-db.png';
 import FooterProjects from '../../../components/FooterProjects';
 import HeaderProjects from '../../../components/HeaderProjects';
-import './styles.css';
 
 function DigitalBanking() {
 

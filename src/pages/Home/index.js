@@ -9,7 +9,6 @@ import Projects from '../../components/Projects';
 import ScrollUp from '../../components/ScrollUp';
 import Skills from '../../components/Skills';
 import { GlobalContext } from '../../contexts/GlobalContext';
-import './styles.css';
 
 function Home() {
   const { openMenu } = useContext(GlobalContext);

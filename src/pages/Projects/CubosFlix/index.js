@@ -4,7 +4,6 @@ import HomeCubosFlixImage from '../../../assets/home-cubos-flix.png';
 import HomeCubosFlixLightImage from '../../../assets/flix-home-light.png';
 import ModalCubosFlixImage from '../../../assets/flix-modal.png';
 import ModalCubosFlixNextImage from '../../../assets/flix-modal-2.png';
-import './styles.css';
 
 function CubosFlix() {
     return (

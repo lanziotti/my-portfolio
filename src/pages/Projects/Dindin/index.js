@@ -5,7 +5,6 @@ import ModalUserDindinImage from '../../../assets/modal-user-dindin.png';
 import RegisterDindinImage from '../../../assets/register-dindin.png';
 import FooterProjects from '../../../components/FooterProjects';
 import HeaderProjects from '../../../components/HeaderProjects';
-import './styles.css';
 
 function Dindin() {
     return (
